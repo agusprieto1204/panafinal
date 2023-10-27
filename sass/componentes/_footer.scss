@@ -1,0 +1,26 @@
+.foooter {
+    background-color: #f9f9f9;
+    padding: 20px;
+
+    img {
+    margin: 0 10px;
+    }
+    a {
+    display: inline-block;
+    margin: 0 10px;
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+        transform: scale(1.1);
+        }
+    }
+    }
+
+    a:hover img {
+    transform: scale(1.1);
+    }
+}
